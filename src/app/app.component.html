@@ -1,0 +1,12 @@
+<div *ngFor = 'let i of appList'>
+    <ul>
+        <li>{{i.ID}}</li>
+        <li>{{i.Name}}</li>
+    </ul>
+</div>
+<div *ngFor = 'let i of appImage'>
+    <ul>
+        <li>{{i.ID}}</li>
+        <img [src] = 'i.url'>
+    </ul>
+</div>
